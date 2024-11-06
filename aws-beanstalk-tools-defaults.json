@@ -1,0 +1,20 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "net8.0",
+    "self-contained" : true,
+    "application"    : "WebApplication1",
+    "environment"    : "test",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-0ae307e1405ee5578\";\"aws:ec2:vpc,Subnets\"=\"subnet-0abc8f655f702aaa9\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.8.3 running .NET Core",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "Msis4363test",
+    "instance-type"        : "t2.micro",
+    "key-pair"             : "",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}
